@@ -17,5 +17,4 @@ BEGIN
     SET
     RAW_DATA = OBJECT_INSERT(OBJECT_INSERT(RAW_DATA,'hiddenFields', PARSE_JSON('["hazard","risk","compliance"]'),true)
     WHERE RAW_DATA:business_unit = 'WEST';
-    END;
-    
+    END;  
